@@ -4,6 +4,86 @@
 <meta charset="utf-8">
 <title>Hero Email</title>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet">
+<style>
+  @media only screen and (min-width: 960px) {
+    .container {
+      width: 960px;
+    }
+    .header-left {
+      padding: 55px 15px 70px 15px !important;
+    }
+    .one-solution-table {
+      text-align: center;
+    }
+    .one-solution-table img {
+      max-width: 611px;
+    }
+    .join-together-table .left-column .middle-column .right-column {
+      padding: 20px 50px !important;
+    }
+    /* .join-together-table .middle-column {
+      padding: 20px 50px !important;
+    }
+    .join-together-table .right-column {
+      padding: 20px 50px !important;
+    } */
+  }
+
+  @media only screen and (max-width: 960px) {
+    .container {
+      width: 600px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .container {
+      width: 100%;
+    }
+    .header-left {
+      width: 100%;
+    }
+    .header-right {
+      width: 100%;
+    }
+    .lets-you-row .left-column {
+      width: 50%;
+    }
+    .lets-you-row .middle-column {
+      width: 50%;
+    }
+    .lets-you-row .right-column {
+      width: 100%;
+    }
+    .advance-table .pink-img {
+      width: 100%;
+    }
+    .advance-table {
+      width: 100%;
+    }
+    .left-para .left-store {
+      text-align: center;
+      width: 100%;
+    }
+    .right-para .right-store {
+      text-align: center;
+      width: 100%;
+    }
+     .join-together-table .middle-column {
+      padding: 20px 50px !important;
+    }
+    .join-together-table .left-column .middle-column .right-column {
+      padding: 20px 50px !important;
+      width: 100%;
+    }
+    .detail-table .one-row-table .left-column {
+      width: 100%;
+    }
+    .detail-table .one-row-table .right-column {
+      width: 100%;
+    }
+
+  }
+</style>
 </head>
 <body style="background: black;">
                   <!-- start of table -->
@@ -34,7 +114,7 @@
           <table class="header-right" width="50%" align="right" cellspacing="0" cellpadding="0" border="0" style="background: white;">
             <tr>
               <td style="font-family: 'open sans', helvetica, arial; color: #7d7d7d;">
-                <table class="container" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" style="padding: 20px;">
+                <table class="menu-table" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" style="padding: 20px;">
                   <tr>
                     <td align="center">
                       <a href="#" style="font-size: 14px; font-weight: 600; text-decoration: none; color: #7d7d7d;">About</a>
@@ -62,13 +142,13 @@
       </tr>
                           <!-- START OF THE LET'S YOU ROW -->
       <tr>
-        <td style="background: #fafafa;">
+        <td class="lets-you-row" style="background: #fafafa;">
 
           <h3 style="font-family: 'open sans', helvetica, arial; color: #333333;text-transform: uppercase; font-weight: 300; ; font-size: 24px; padding: 36px 0 5px 0;" align="center">Hero Let's you...</h3>
 
                             <!-- START OF LEFT COLUMN -->
 
-          <table class="header-left" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 15px 15px 70px 15px;">
+          <table class="left-column" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 15px 15px 70px 15px;">
             <tr>
               <td>
                 <table class="title-icon" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 0;">
@@ -95,7 +175,7 @@
 
                          <!-- START OF MIDDLE LET'S YOU COLUMN -->
 
-          <table class="header-left" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 15px 15px 70px 15px;">
+          <table class="middle-column" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 15px 15px 70px 15px;">
             <tr>
               <td>
                 <table class="title-icon" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 0;">
@@ -121,7 +201,7 @@
                               <!-- END OF MIDDLE LET'S YOU COLUMN -->
 
                               <!-- START OF RIGHT LET'S YOU COLUMN -->
-          <table class="header-left" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 15px 15px 70px 15px;">
+          <table class="right-column" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 15px 15px 70px 15px;">
             <tr>
               <td>
                 <table class="title-icon" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 0;">
@@ -157,7 +237,7 @@
             <tr>
               <td style="font-family: 'open sans', helvetica, arial; color: #333333; font-weight: 300; ; font-size: 24px; padding: 36px 0 5px 0;" align="center">
 
-                <img src="img/image_head.jpg" alt="">
+                <img src="img/image_head.jpg" class="pink-img">
               </td>
             </tr>
           </table>
@@ -175,7 +255,7 @@
                         <!-- START LEFT PARA UNDER H3 HEADING -->
       <tr>
         <td>
-          <table class="advance-table" width="50%" cellpadding="0" cellspacing="0" border="0" align="left" style="padding: 15px 15px 50px 15px; background: white;">
+          <table class="left-para" width="50%" cellpadding="0" cellspacing="0" border="0" align="left" style="padding: 15px 15px 50px 15px; background: white;">
             <tr>
               <td>
                 <p style="font-family: 'open sans', helvetica, arial; color: #7f8887; font-weight: 400; line-height: 1.8; font-size: 14px; padding: 0 0 30px;">this is the information under the most advanced app section. specifically the info in the left column.</p>
@@ -186,7 +266,7 @@
                       <!-- START playstore IMAGE -->
 
             <tr>
-              <td align="right">
+              <td align="right" class="left-store">
                 <img src="img/appstore.png">
               </td>
             </tr>
@@ -195,7 +275,7 @@
 
                           <!-- START RIGHT PARA UNDER H3 HEADING -->
 
-          <table class="advance-table" width="50%" cellpadding="0" cellspacing="0" border="0" align="left" style="padding: 15px 15px 50px 15px; background: white;">
+          <table class="right-para" width="50%" cellpadding="0" cellspacing="0" border="0" align="left" style="padding: 15px 15px 50px 15px; background: white;">
             <tr>
               <td>
                 <p style="font-family: 'open sans', helvetica, arial; color: #7f8887; font-weight: 400; line-height: 1.8; font-size: 14px; padding: 0 0 30px;">this is the information under the most advanced app section. specifically the info in the right column.</p>
@@ -205,7 +285,7 @@
 
                               <!-- START GOOGLE PLAY IMAGE -->
             <tr>
-              <td align="left">
+              <td align="left" class="right-store">
                 <img src="img/playstore.png">
               </td>
             </tr>
@@ -240,7 +320,7 @@
           <tr>
             <td>
                                   <!-- START OF LEFT SYNC COLUMN -->
-              <table class="join-together" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 20px 0; background: white;">
+              <table class="left-column" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 20px 0; background: white;">
                 <tr>
                   <td align="center">
                     <img src="img/watch_screen.png">
@@ -265,7 +345,7 @@
                                     <!-- END OF LEFT SYNC COLUMN -->
 
                                     <!-- START OF MIDDLE SYNC COLUMN -->
-              <table class="column-table" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 20px 0; background: white;">
+              <table class="middle-column" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 20px 0; background: white;">
                 <tr>
                   <td align="center">
                     <img src="img/watch_screen.png">
@@ -290,7 +370,7 @@
                                     <!-- END OF MIDDLE SYNC COLUMN -->
 
                                     <!-- START OF RIGHT SYNC COLUMN -->
-              <table class="column-table" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 20px 0; background: white;">
+              <table class="right-column" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 20px 0; background: white;">
                 <tr>
                   <td align="center">
                     <img src="img/watch_screen.png">
@@ -333,9 +413,9 @@
               <table class="one-row-table" align="left" width="100%" cellpadding="0" cellspacing="0" border="0" style="padding: 0;">
                 <tr>
                   <td>
-                                      <!-- START OF COLUMN -->
+                                      <!-- START OF LEFT COLUMN -->
 
-                  <table class="column-table" align="left" width="50%" cellpadding="0" cellspacing="0" border="0" style="padding: 0 15px 20px;">
+                  <table class="left-column" align="left" width="50%" cellpadding="0" cellspacing="0" border="0" style="padding: 0 15px 20px;">
                     <tr>
                       <td>
 
@@ -360,11 +440,11 @@
                     </tr>
 
                   </table>
-                                  <!-- END OF COLUMN -->
+                                  <!-- END OF LEFT COLUMN -->
 
-                                  <!-- START OF COLUMN -->
+                                  <!-- START OF RIGHT COLUMN -->
 
-                <table class="column-table" align="left" width="50%" cellpadding="0" cellspacing="0" border="0" style="padding: 0 15px 20px;">
+                <table class="right-column" align="left" width="50%" cellpadding="0" cellspacing="0" border="0" style="padding: 0 15px 20px;">
                   <tr>
                     <td>
                                 <!-- START OF ICON TABLE -->
@@ -395,9 +475,9 @@
                 <table class="one-row-table" align="left" width="100%" cellpadding="0" cellspacing="0" border="0" style="padding: 0;">
                   <tr>
                     <td>
-                                        <!-- START OF COLUMN -->
+                                        <!-- START OF LEFT COLUMN -->
 
-                      <table class="column-table" align="left" width="50%" cellpadding="0" cellspacing="0" border="0" style="padding: 0 15px 20px;">
+                      <table class="left-column" align="left" width="50%" cellpadding="0" cellspacing="0" border="0" style="padding: 0 15px 20px;">
                         <tr>
                           <td>
 
@@ -422,11 +502,11 @@
                         </tr>
 
                       </table>
-                                    <!-- END OF COLUMN -->
+                                    <!-- END OF LEFT COLUMN -->
 
-                                    <!-- START OF COLUMN -->
+                                    <!-- START OF RIGHT COLUMN -->
 
-                  <table class="column-table" align="left" width="50%" cellpadding="0" cellspacing="0" border="0" style="padding: 0 15px 20px;">
+                  <table class="right-column" align="left" width="50%" cellpadding="0" cellspacing="0" border="0" style="padding: 0 15px 20px;">
                     <tr>
                       <td>
                                   <!-- START OF ICON TABLE -->
@@ -449,7 +529,7 @@
                     </tr>
 
                   </table>
-                                <!-- END OF COLUMN -->
+                                <!-- END OF RIGHT COLUMN -->
 
                                 <!-- START OF THIRD ROW -->
               <tr>
@@ -457,9 +537,9 @@
                   <table class="one-row-table" align="left" width="100%" cellpadding="0" cellspacing="0" border="0" style="padding: 0;">
                     <tr>
                       <td>
-                                          <!-- START OF COLUMN -->
+                                          <!-- START OF LEFT COLUMN -->
 
-                        <table class="column-table" align="left" width="50%" cellpadding="0" cellspacing="0" border="0" style="padding: 0 15px 20px;">
+                        <table class="left-column" align="left" width="50%" cellpadding="0" cellspacing="0" border="0" style="padding: 0 15px 20px;">
                           <tr>
                             <td>
 
@@ -484,11 +564,11 @@
                               </tr>
 
                             </table>
-                                          <!-- END OF COLUMN -->
+                                          <!-- END OF LEFT COLUMN -->
 
-                                          <!-- START OF COLUMN -->
+                                          <!-- START OF RIGHT COLUMN -->
 
-                        <table class="column-table" align="left" width="50%" cellpadding="0" cellspacing="0" border="0" style="padding: 0 15px 20px;">
+                        <table class="right-column" align="left" width="50%" cellpadding="0" cellspacing="0" border="0" style="padding: 0 15px 20px;">
                           <tr>
                             <td>
                                         <!-- START OF ICON TABLE -->
@@ -511,7 +591,7 @@
                           </tr>
 
                         </table>
-                                        <!-- END OF COLUMN -->
+                                        <!-- END OF RIGHT COLUMN -->
                     </td>
                   </tr>
 
@@ -536,9 +616,11 @@
                 </table>
               </td>
             </tr>
+
+                        <!-- START FOOTER -->
             <tr>
               <td>
-                              <!-- START FOOTER -->
+
 
                 <table class="footer-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 25px 0 0; background: white;">
                   <tr>
@@ -548,25 +630,25 @@
                   </tr>
                   <tr>
                     <td>
-                      <table class="footer-table" align="center" width="250px" align="left" cellspacing="0" cellpadding="0" border="0" style="">
+                      <table class="icon-table" align="center" width="250px" align="left" cellspacing="0" cellpadding="0" border="0" style="">
                         <tr>
                           <td align="center">
-                            <img src="img/twitter_icon.png">
+                            <a href="http://www.twitter.com"><img src="img/twitter_icon.png"></a>
                           </td>
                           <td align="center">
-                            <img src="img/youtube_icon.png">
+                            <a href="http://www.youtube.com"><img src="img/youtube_icon.png"></a>
                           </td>
                           <td align="center">
-                            <img src="img/facebook_icon.png">
+                            <a href="http://www.facebook.com"><img src="img/facebook_icon.png"></a>
                           </td>
                           <td align="center">
-                            <img src="img/google_icon.png">
+                            <a href="http://www.google.com"><img src="img/google_icon.png"></a>
                           </td>
                           <td align="center">
-                            <img src="img/linkedin_icon.png">
+                            <a href="http://www.linkedin.com"><img src="img/linkedin_icon.png"></a>
                           </td>
                           <td align="center">
-                            <img src="img/pinterest_icon.png">
+                            <a href="http://www.pinterest.com"><img src="img/pinterest_icon.png"></a>
                           </td>
                         </tr>
                       </table>
